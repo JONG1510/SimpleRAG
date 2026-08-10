@@ -1,0 +1,22 @@
+# Environment variables (API Keys - NEVER commit to GitHub)
+.env
+.env.*
+
+# Python cache & compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+*.log
+
+# Virtual Environments
+venv/
+.venv/
+env/
+
+# LlamaIndex / Vector Store cache directories
+storage/
+.chroma/
+
+# Operating System files
+.DS_Store
+Thumbs.db

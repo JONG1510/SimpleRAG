@@ -1,0 +1,4 @@
+gradio==6.22.0
+llama_index==0.14.23
+protobuf==7.35.1
+python-dotenv==1.2.2
