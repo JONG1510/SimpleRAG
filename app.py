@@ -28,7 +28,7 @@ logging.basicConfig(
 )
 
 GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
-LLM_MODEL = os.getenv("GEMINI_MODEL", "gemini-3.6-flash")
+LLM_MODEL = os.getenv("GEMINI_MODEL", "gemini-3.5-flash")
 
 # ---------------------------------------------------------------------------
 # 1. Core LLM / Embedding Setup
