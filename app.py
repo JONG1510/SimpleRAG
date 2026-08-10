@@ -202,7 +202,8 @@ demo = gr.ChatInterface(
     title='<b style="color: #C85A17; font-family: Calibri;">University Travel Assistant</b>',
 )
 
-# # --- BEFORE ---
+# # --- BEFORE for local host ---
+
 # if __name__ == "__main__":
 #     demo.launch(share=True,auth=("admin", "password123"))
 
@@ -211,6 +212,8 @@ if __name__ == "__main__":
     port = int(os.environ.get("PORT", 7860))
     demo.launch(
         server_name="0.0.0.0",
-        server_port=port,
-        auth=("admin", "password123")
+        server_port=port
     )
+
+        #   auth=("admin", "password123")
+        # )
