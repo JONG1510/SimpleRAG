@@ -18,7 +18,7 @@ An interactive Retrieval-Augmented Generation (RAG) assistant that answers workp
 **Repository Architecture**
 
 ```text
-.
+
 ├── data/                  # Source policy documents parsed by SimpleDirectoryReader
 ├── storage/               # Created by StorageContext to persist vector index to disk
 │   ├── docstore.json      # LlamaIndex document metadata store
@@ -28,7 +28,7 @@ An interactive Retrieval-Augmented Generation (RAG) assistant that answers workp
 ├── agent_queries.log      # Runtime log generated via logging.basicConfig()
 ├── main.py                # Main script containing tools, agent logic, and Gradio UI
 └── requirements.txt       # Dependencies (llama-index, gradio, python-dotenv)
-
+```
 ---
 
 ## ⚡ Quick Start (Local Setup)
