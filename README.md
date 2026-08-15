@@ -41,8 +41,8 @@ An interactive Retrieval-Augmented Generation (RAG) assistant that answers workp
 ### 1. Environment Setup
 
 Create a .env file in the root directory:
-- GOOGLE_API_KEY=your_gemini_api_key_here
-- GEMINI_MODEL=gemini-3.5-flash
+- **GOOGLE_API_KEY**=your_gemini_api_key_here
+- **GEMINI_MODEL**=gemini-3.5-flash
 
 ### 2. Document Preparation
 Place university travel policy documents inside the data/ directory.
