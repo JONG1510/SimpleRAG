@@ -7,7 +7,7 @@ An interactive Retrieval-Augmented Generation (RAG) assistant that answers workp
 **Features**
 
 * **Policy RAG Search (`travel_policy_lookup`)**: Performs semantic retrieval over policy documents in `data/` using `SentenceSplitter` (chunk size: 512, overlap: 50). Answers are constrained strictly to context.
-* **Travel Cost Estimator (`search_travel_cost`)**: A `FunctionTool` that estimates flight, hotel, and ground travel costs.
+* **Travel Cost Estimator (`search_travel_cost`)**: A `FunctionTool` that allows search online for travel and logistics related matters e.g. flight, hotel, and ground travel costs.
 * **Input Pre-filtering**: Blocks off-topic queries and prompt injection keywords before tool execution.
 * **Disk Persistence**: Stores and loads vector index data in `./storage` to avoid re-embedding on startup.
 * **Session Memory & UI**: Converts Gradio chat history into LlamaIndex `ChatMessage` objects for multi-turn conversations in `gr.ChatInterface`.
