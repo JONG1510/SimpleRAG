@@ -54,7 +54,7 @@ The server will launch gr.ChatInterface on 0.0.0.0 using the configured PORT or 
 
 ## 🌐 Deployment (Render + Gradio)
 
-### For public demos or remote team access, you can deploy this Gradio interface directly to free cloud hosting like **Render**:
+For public demos or remote team access, you can deploy this Gradio interface directly to free cloud hosting like **Render**:
 
 1. **Push to GitHub**: Ensure your repository includes `main.py`, `requirements.txt`, and your policy files in `data/`.
 2. **Deploy on Render**:
