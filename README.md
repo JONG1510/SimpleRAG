@@ -52,3 +52,16 @@ python main.py
 
 The server will launch gr.ChatInterface on 0.0.0.0 using the configured PORT or default 7860.
 
+### 🌐 Deployment (Render + Gradio)
+
+For public demos or remote team access, you can deploy this Gradio interface directly to free cloud hosting like **Render**:
+
+1. **Push to GitHub**: Ensure your repository includes `main.py`, `requirements.txt`, and your policy files in `data/`.
+2. **Deploy on Render**:
+   - Create a new **Web Service** connected to your GitHub repo.
+   - **Environment**: Python 3
+   - **Build Command**: `pip install -r requirements.txt`
+   - **Start Command**: `python main.py`
+3. **Set Environment Variables**: Add `GOOGLE_API_KEY` and `GEMINI_MODEL` under your Render service settings.
+
+> 💡 **Note**: The application automatically reads the `$PORT` environment variable assigned by hosting providers like Render to bind the web interface.
